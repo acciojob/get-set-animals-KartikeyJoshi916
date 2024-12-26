@@ -16,7 +16,7 @@ class Dog extends Animal {
 		super("Dog");
 	}
 	bark(){
-		makeSound("woof");
+		this.makeSound("woof");
 	}
 }
 
@@ -25,7 +25,7 @@ class Cat extends Animal {
 		super("Cat");
 	}
 	purr(){
-		makeSound("purr");
+		this.makeSound("purr");
 	}
 }
 
