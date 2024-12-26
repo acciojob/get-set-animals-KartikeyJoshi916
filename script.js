@@ -13,6 +13,9 @@ class Animal {
 }
 
 class Dog extends Animal {
+	constructor() {
+    super("Dog"); 
+  }
   bark() {
     this.makeSound("woof");
   }
