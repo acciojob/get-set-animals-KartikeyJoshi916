@@ -8,7 +8,7 @@ class Animal {
   }
 
   makeSound() {
-    console.log(this._species);
+    ;
   }
 }
 
